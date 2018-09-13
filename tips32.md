@@ -1680,7 +1680,7 @@ Just test it
 
 ## #3 - Http request/response with close notify and timeout
 > 2016-27-01 by [@beyondns](https://github.com/beyondns)
-
+> Deprecated: the CloseNotifier interface predates Go's context package. New code should use Request.Context instead.
 
 ```go
 const RequestMaxWaitTimeInterval = time.Second * 15
